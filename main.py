@@ -1,13 +1,17 @@
+## É um aplicação que permite a montagem de horarios com dias,diciplinas e professores dessas diciplinas tudo feito em python.d
+print("Bem vindo ao App criador de horarios para professores")
 
-def menu():
-	print("Digite o nome do professor")
-    input([professor])
-	print("Digite a materia do professor")
-	input([materia])
-    print("Digite o horario")
-	
-    print("Digite o o dia de aula")
+def hello():
+	nome = input("Digite seu nome: ")
+	print("seja bem vindo: ",nome,)
 
-	pass
-
-menu()
+def diciplinas():
+    dic = input("Digite a sua diciplina")
+    resposta = input("Voce deseja escolher adicionar outra diciplina Sim(1) Não (2)")
+    if (resposta == 2): 
+        dic2 = input("Digite a sua diciplina")
+    else:
+       	print("")
+hello()
+diciplinas()
+    

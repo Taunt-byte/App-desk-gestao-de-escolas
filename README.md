@@ -4,7 +4,7 @@ Status: Em desenvolvimento
 
 # Sobre
 
-É um aplicação que permite a montagem de horarios com dias,diciplinas e professores dessas diciplinas tudo feito em python.
+É um aplicação que permite a montagem de horarios com dias,diciplinas e professores dessas diciplinas tudo feito em python.+
 
 # Motivação
 
