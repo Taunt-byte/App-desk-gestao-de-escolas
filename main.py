@@ -10,5 +10,7 @@ jan.title("Sistema de montagem de horarios")
 jan.geometry("600x300")
 jan.configure(background="black")
 jan.resizable(width=False,height=False)
- 
+
+Label.tk("Ola mundo")
+
 jan.mainloop()   
