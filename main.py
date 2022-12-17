@@ -1,16 +1,16 @@
-## É um aplicação que permite a montagem de horarios com dias,diciplinas e professores dessas diciplinas tudo feito em python.d
-#import das bibliotecas
+# App de gerenciamento de horarios de professores
+
+# Import das bibliotecas
 from tkinter import *
 from tkinter import messagebox
 
-# Criador da Janela
-
-jan = Tk()
-jan.title("Sistema de montagem de horarios")
-jan.geometry("600x300")
-jan.configure(background="black")
-jan.resizable(width=False,height=False)
-
-Label.tk("Ola mundo")
-
-jan.mainloop()   
+class app():
+    def __init__(self):
+        janela = Tk()
+        janela.title("Gerenciammento de horarios escolares")
+   
+        lbl = Label(janela, text="Ola Mundo")
+        lbl.grid(column=0, row=0)
+        
+        janela.mainloop()
+app()
